@@ -6,7 +6,7 @@ const canvas = document.querySelector("canvas"),
   colorPicker = document.querySelector("#color-picker"),
   clearCanvas = document.querySelector(".clear-canvas"),
   saveImg = document.querySelector(".save-img"),
-  ctx = canvas.getContext("2d");
+  const ctx = canvas.getContext("2d");
 
 // global variables with default value
 let prevMouseX, prevMouseY, snapshot,
